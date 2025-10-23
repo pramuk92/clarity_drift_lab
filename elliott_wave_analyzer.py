@@ -20,7 +20,7 @@ stock_dict = {
     "Johnson & Johnson (JNJ)": "JNJ"
 }
 
-st.title("📈 Ell-iad Wave Forecast Dashboard")
+st.title("📈 Elliott Wave Forecast Dashboard")
 
 # Disclaimer block
 st.markdown("""
