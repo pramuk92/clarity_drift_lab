@@ -65,11 +65,11 @@ def plot_elliott_forecast(df, waves, current_price, projections, future_periods=
         axs[2].axhline(y=price, linestyle='--', color='orange', alpha=0.7, label=f'Fib {level}: ${price:.2f}')
     axs[2].axhline(y=current_price, color='red', linestyle='-', linewidth=2, label=f'Current: ${current_price:.2f}')
 
-    # Adjust y-limits for clarity
+    # Dynamic y-axis scaling
     all_prices = list(projections.values()) + [current_price]
-    min_y = min(all_prices) * 0.95
-    max_y = max(all_prices) * 1.05
-    axs[2].set_ylim(min_y, max_y)
+    price_range = max(all_prices) - min(all_prices)
+    padding = price_range * 0.2  # Add 20% vertical padding
+    axs[2].set_ylim(min(all_prices) - padding, max(all_prices) + padding)
 
     axs[2].set_title('Forecast with Fibonacci Levels')
     axs[2].set_xlabel('Date')
