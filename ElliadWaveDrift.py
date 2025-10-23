@@ -48,6 +48,7 @@ else:
 
     st.subheader(f"Forecast for {selected_stock}")
     if projections:
-        plot_elliott_forecast(df, waves, current_price, projections, future_periods=90)
+        fig = plot_elliott_forecast(df, waves, current_price, projections, future_periods=90)
+        st.pyplot(fig)
     else:
         st.warning("No valid Elliott Wave patterns detected.")
