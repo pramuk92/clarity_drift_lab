@@ -57,4 +57,4 @@ def plot_elliott_forecast(df, waves, current_price, projections, future_periods=
     plt.legend(bbox_to_anchor=(1.05, 1), loc='upper left')
     plt.grid(True, alpha=0.3)
     plt.tight_layout()
-    st.pyplot(plt)
+    return plt
