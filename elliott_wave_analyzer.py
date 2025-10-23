@@ -1,11 +1,9 @@
-import streamlit as st
-from elliott_wave_analyzer import ElliottWaveAnalyzer, plot_elliott_forecast
-import yfinance as yf
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.signal import argrelextrema
 import warnings
+warnings.filterwarnings('ignore')
 warnings.filterwarnings('ignore')
 
 # Dictionary of major stocks
