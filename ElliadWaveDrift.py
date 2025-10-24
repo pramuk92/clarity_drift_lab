@@ -495,7 +495,7 @@ def main():
         ### Supported Stocks:
         All major US stocks including AAPL, MSFT, GOOGL, AMZN, TSLA, NVDA, and many more!
         
-        ⚠️ **Disclaimer**: This is for educational purposes only. Always do your own research and consult with financial advisors before making investment decisions.
+        ⚠️ **Disclaimer**: This is for educational purposes only. Always do your own research and consult with financial advisors before making investment decisions. Futures and Forex trading, and investing in stocks contains substantial risk and is not suitable for every investor. An investor could potentially lose all or more than the initial investment. Don't invest money that you cannot afford to lose. Risk capital is money that can be lost without jeopardizing ones financial security or life style. Only risk capital should be used for trading and only those with sufficient risk capital should consider trading. Past performance is not necessarily indicative of future results.
         """)
         
         # Quick stock preview
