@@ -1,9 +1,12 @@
-yfinance==0.2.66
-numpy==2.0.2
+# Core Streamlit app dependencies
+streamlit==1.30.0
+
+# Data and plotting stack
+numpy==2.0.2 --only-binary=:all:
 pandas==2.2.2
 matplotlib==3.10.0
 scipy==1.16.3
-streamlit==1.30.0
 plotly==5.24.1
 seaborn==0.13.2
 scikit-learn==1.6.1
+yfinance==0.2.66
