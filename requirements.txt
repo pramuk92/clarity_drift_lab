@@ -1,7 +1,4 @@
-# Core Streamlit app dependencies
 streamlit==1.30.0
-
-# Data and plotting stack
 numpy==2.0.2 --only-binary=:all:
 pandas==2.2.2
 matplotlib==3.10.0
